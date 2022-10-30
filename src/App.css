@@ -6,6 +6,23 @@ button:active, a:active{
   transform: scale(.98);
 }
 
+section h1 {
+  position: relative;
+}
+
+section h1::after {
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: rgb(225 29 72);
+  
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: auto;
+}
+
 #Me {
   background-color:hsla(14,0%,0%,1);
   background-image:
@@ -39,7 +56,7 @@ button:active, a:active{
   background-image:
   radial-gradient(at 16% 100%, rgba(37, 105, 193, 0.4) 0px, transparent 50%),
   radial-gradient(at 80% 40%, rgba(153, 66, 194, 0.5) 0px, transparent 50%);
-  animation: fade 4s linear  infinite alternate;
+  animation: fade 3s linear  infinite alternate;
 }
 
 #Contact {
@@ -47,7 +64,7 @@ button:active, a:active{
   background-image:
   radial-gradient(at 16% 0%, rgba(37, 105, 193, 0.4) 0px, transparent 50%),
   radial-gradient(at 80% 100%, rgba(145, 194, 66, 0.5) 0px, transparent 50%);
-  animation: fade 4s linear  infinite alternate;
+  animation: fade 3s linear  infinite alternate;
 }
 
 .my-btn {
