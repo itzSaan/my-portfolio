@@ -2,7 +2,7 @@
 export default function MobileNav() {
     
     return (
-        <div className="lg:hidden bg-slate-800/75 backdrop-blur-sm pt-3 pb-1 fixed inset-x-0 bottom-0 z-50">
+        <div className="lg:hidden w-screen bg-slate-800/75 backdrop-blur-sm pt-3 pb-1 fixed inset-x-0 bottom-0 z-50">
             <div className="text-center">
                <div className="flex justify-center w-full">                
                 <a href="#Me" 
