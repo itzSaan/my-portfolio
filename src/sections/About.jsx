@@ -30,7 +30,7 @@ export default function About() {
                         <p className="">8908221784, 8480310320</p>
                         </div>
                     </div>  
-                <div className="text-center mt-5 md:text-left md:mb-0">
+                <div className="text-center mt-5 md:mt-0 md:text-left md:mb-0">
                     <a href="Sangram Kishor.pdf" target="_blank" className="px-16 py-4  md:w-44 bg-blue-500 text-white rounded">Download CV</a>                  
                 </div>             
                 </div>
