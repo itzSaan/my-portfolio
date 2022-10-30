@@ -7,7 +7,7 @@ export default function Works() {
                <h1 className="text-3xl  font-bold mb-8 sm:text-3xl md:text-4xl">
                 Some of my Works<span className="text-rose-600">.</span>
                 </h1> 
-              <div className="max-w-5xl my-6 grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-6">
+              <div className="max-w-5xl my-2 p-2 grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-5">
                 {projects.map(project => (
                   <a 
                   href={project.link}
