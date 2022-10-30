@@ -7,9 +7,9 @@ export default function Hero() {
                         Hello,
                     </span> I'm
                 </span>
-              <h1 className="text-4xl font-bold mt-3 mb-8 sm:text-5xl md:text-6xl">
+              <h2 className="text-4xl font-bold mt-3 mb-8 sm:text-5xl md:text-6xl">
                 Sangram Kishor
-                </h1>  
+                </h2>  
                 <p className="text-lg md:text-2xl sm:text-xl">
                 UI/UX  & Frontend Developer
                 </p>
