@@ -1,0 +1,132 @@
+main {
+  position: relative;
+}
+
+button:active, a:active{
+  transform: scale(.98);
+}
+
+#Me {
+  background-color:hsla(14,0%,0%,1);
+  background-image:
+  radial-gradient(at 109% 30%, hsla(238,68%,45%,1) 0px, transparent 50%),
+  radial-gradient(at 108% 60%, hsla(296,51%,51%,1) 0px, transparent 50%);
+}
+
+
+#About {
+  background-color:hsla(14,0%,0%,1);
+  background-image:
+  radial-gradient(at 3% 50%, rgba(149, 0, 236, 0.527) 0px, transparent 50%),
+  radial-gradient(at 1% 60%, rgba(57, 215, 236, 0.63) 0px, transparent 50%);
+}
+
+#Skills {
+  background-color:hsla(14,0%,0%,1);
+  background-image:
+  radial-gradient(at 53% 50%, rgba(37, 188, 193, 0.4) 0px, transparent 50%),
+  radial-gradient(at 60% 50%, rgba(153, 66, 194, 0.5) 0px, transparent 50%);
+}
+
+#Works {
+  background-color:hsla(14,0%,0%,1);
+  background-image:
+  radial-gradient(at 16% 100%, rgba(37, 105, 193, 0.4) 0px, transparent 50%),
+  radial-gradient(at 80% 40%, rgba(153, 66, 194, 0.5) 0px, transparent 50%);
+}
+
+#Contact {
+  background-color:hsla(14,0%,0%,1);
+  background-image:
+  radial-gradient(at 16% 0%, rgba(37, 105, 193, 0.4) 0px, transparent 50%),
+  radial-gradient(at 80% 100%, rgba(145, 194, 66, 0.5) 0px, transparent 50%);
+}
+
+.my-btn {
+  background-color:#ffca99;
+background-image:
+radial-gradient(at 81% 11%, hsla(183,89%,66%,1) 0px, transparent 50%),
+radial-gradient(at 52% 53%, hsla(240,96%,75%,1) 0px, transparent 50%),
+radial-gradient(at 44% 63%, hsla(324,84%,75%,1) 0px, transparent 50%),
+radial-gradient(at 4% 85%, hsla(346,86%,67%,1) 0px, transparent 50%),
+radial-gradient(at 83% 13%, hsla(245,98%,79%,1) 0px, transparent 50%),
+radial-gradient(at 12% 25%, hsla(47,78%,66%,1) 0px, transparent 50%),
+radial-gradient(at 42% 51%, hsla(275,83%,66%,1) 0px, transparent 50%);
+background-size: 180%;
+background-position: 30% 100%;
+border-radius: 4px;
+text-shadow: 0 1px 2px #0003;
+transition: all 2s;
+}
+
+.my-btn:hover{
+  background-position: 100% 0%;
+}
+
+.my-btn-outline{
+  position: relative;
+  background-color: #000;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.my-btn-outline::before {
+  content: "";
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  background-color:#d0ff00;
+  background-image:
+  radial-gradient(at 81% 11%, hsla(183,89%,66%,1) 0px, transparent 50%),
+  radial-gradient(at 52% 53%, hsla(240,96%,75%,1) 0px, transparent 50%),
+  radial-gradient(at 44% 63%, hsla(324,84%,75%,1) 0px, transparent 50%),
+  radial-gradient(at 4% 85%, hsla(346,86%,67%,1) 0px, transparent 50%),
+  radial-gradient(at 83% 13%, hsla(245,98%,79%,1) 0px, transparent 50%),
+  radial-gradient(at 12% 25%, hsla(47,78%,66%,1) 0px, transparent 50%),
+  radial-gradient(at 42% 51%, hsla(275,83%,66%,1) 0px, transparent 50%);
+  background-size: 200%;
+  background-position: 100% 0;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  z-index: -1;
+  border-radius: 4px;
+  transition: all .6s linear;
+}
+
+.my-btn-outline::after {
+  content: "";
+  width: 100%;
+  height:100%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 4px;
+}
+
+.my-btn-outline:hover.my-btn-outline::before{
+  background-position: 0% 100%;
+}
+
+
+.text-vertical{
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+.active{
+  background-color: rgba(184, 220, 255, 0.185);
+  color: white;
+  border-left: 4px solid dodgerblue;
+}
+
+.cursor{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(244 63 94);
+  position: absolute;
+  transition: .3s linear;
+  z-index: 11111;
+}
