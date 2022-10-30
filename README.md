@@ -11,6 +11,8 @@ Its my portfolio with dark theme. made with react.
 
 ## Demo
 
-Insert gif or link to demo
+Check demos by clicking below links
 
-https://todo-app-green-alpha.vercel.app/
+https://sangram-kishor.vercel.app/
+
+https://www.sangramkishor.tk/
