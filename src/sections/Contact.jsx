@@ -30,17 +30,17 @@ export default function Contact() {
                 <h1 className="text-3xl mt-8 sm:mt-auto text-center font-bold mb-6 md:mb-12 sm:text-3xl md:text-4xl">
                 Get in touch with me<span className="text-rose-600">.</span>
                 </h1> 
-                <div className=" p-6 flex flex-col md:flex-row justify-center gap-6 md:gap-10 items-center">
+                <div className="mb-10 md:mb-0 p-6 flex flex-col md:flex-row justify-center gap-6 md:gap-10 items-center">
                 <div className="w-96 px-6 md:px-0">
-                <img src="./images/bar-chart.png"  className="block w-full" />
-                <p className="w-72 pr-6 text-2xl leading-relaxed font-bold">
-                Drop me a message,
+                <img src="./images/bar-chart.png"  className="block w-full mb-2" />
+                <p className="text-2xl leading-relaxed font-bold">
+                Drop me a message, <br/>
                 I would like to
                 hear from you<span className="text-rose-600">.</span>
                 </p>
             </div>
 
-               <div className="w-auto px-6 md:px-0">                 
+               <div className="w-auto px-6 mb-6 md:px-0">                 
                  <form 
                     netlify
                     name="contact"
@@ -72,7 +72,9 @@ export default function Contact() {
                          onChange={e => setMessage(e.target.value)}
                          required 
                          />   
-                <button className="h-12 w-full bg-blue-500 text-white rounded" type="submit">
+                <button 
+                className="h-12 w-full bg-blue-500 text-white rounded" 
+                type="submit">
                     Send Message
                     </button>                  
                 </form>  
