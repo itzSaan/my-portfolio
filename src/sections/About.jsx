@@ -24,7 +24,7 @@ export default function About() {
                     <div className="grid gap-4 sm:gap-6">
                     <p className="">Sangram Kishor Moharana</p>
                     <p className="">22nd March 1994</p>
-                    <p className="">Madhuban, Paradip, Odisha</p>
+                    <p className="">Paradip, Odisha</p>
                     <p className="">754142</p>
                     <p className="">sangramm7@gmail.com</p>
                     <p className="">8908221784, 8480310320</p>
