@@ -2,7 +2,7 @@
 
 export default function MobileSocialNav() {
     return (
-        <div className="lg:hidden bg-slate-800/75 backdrop-blur-sm py-3 fixed inset-x-0 top-0 z-[55]">
+        <div className="lg:hidden w-screen bg-slate-800/75 backdrop-blur-sm py-3 fixed inset-x-0 top-0 z-[55]">
             <div className="mx-auto w-full sm:flex items-center gap-2 grid place-content-center">
                 <span className='text-sm'>
                     Find me on<span className='text-rose-600'>.</span>
