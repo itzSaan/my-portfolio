@@ -75,3 +75,67 @@ export const  projects = [
       
 ]
 
+
+export const skills = [
+  {
+      name: "HTML:5",
+      image: "images/html_5.svg",
+  },
+  {
+      name: "CSS3",
+      image: "images/css_3.svg",
+  },
+  {
+      name: "JavaScript",
+      image: "images/js.svg",
+  },
+  {
+      name: "jQuery",
+      image: "images/jquery.svg",
+  },
+  {
+      name: "Bootstrap",
+      image: "images/bootstrap.svg",
+  },
+  {
+      name: "Tailwind CSS",
+      image: "images/tailwind.svg",
+  },
+  {
+      name: "WordPress",
+      image: "images/wordpress.svg",
+  },
+  {
+      name: "React",
+      image: "images/react.svg",
+  },
+  {
+      name: "Node JS",
+      image: "images/node_js.svg",
+  },
+  {
+      name: "VS Code",
+      image: "images/vs_code.svg",
+  },
+  {
+      name: "Codepen",
+      image: "images/codepen.svg",
+  },
+  {
+      name: "Photoshop",
+      image: "images/photoshop.svg",
+  },
+  {
+      name: "CorelDraw",
+      image: "images/coreldraw.svg",
+  },
+  {
+      name: "Figma",
+      image: "images/figma.svg",
+  },
+  {
+      name: "Adobe Xd",
+      image: "images/adobexd.svg",
+  },
+]
+
