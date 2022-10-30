@@ -32,7 +32,7 @@ export default function Contact() {
                 </h1> 
                 <div className=" p-6 flex flex-col md:flex-row justify-center gap-6 md:gap-10 items-center">
                 <div className="w-96 px-6 md:px-0">
-                <img src="./images/chat-box.png"  className="block w-full" />
+                <img src="./images/bar-chart.png"  className="block w-full" />
                 <p className="w-72 pr-6 text-2xl leading-relaxed font-bold">
                 Drop me a message,
                 I would like to
