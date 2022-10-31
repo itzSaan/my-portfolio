@@ -10,7 +10,7 @@ export default function About() {
                     <img src="./images/sangram.png" className="block rounded-2xl w-full" />
                 </div>
 
-                <div className="max-w-96 flex flex-col justify-between gap-6 md:w-auto">             
+                <div className="max-w-96 flex flex-col justify-between gap-4 md:w-auto">             
                     
                     <div className="flex justify-center mb-5 text-sm md:text-base">
                         <div className="w-36  grid gap-4 sm:gap-8">
