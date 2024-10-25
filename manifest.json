@@ -8,7 +8,7 @@
   "display": "standalone",
   "icons": [
         {
-      "src": "public/images/s.png",
+      "src": "sk.ico",
       "sizes": "48x48"
     },
     {
