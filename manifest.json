@@ -8,16 +8,16 @@
   "display": "standalone",
   "icons": [
         {
-      "src": "letter-s.ico",
+      "src": "https://sangram-kishor.vercel.app/letter-s.ico",
       "sizes": "48x48"
     },
     {
-      "src": "letter-s.png",
+      "src": "https://sangram-kishor.vercel.app/letter-s.png",
       "sizes": "72x72 96x96",
       "purpose": "maskable"
     },
     {
-      "src": "letter-s.png",
+      "src": "https://sangram-kishor.vercel.app/letter-s.png",
       "sizes": "128x128 256x256"
     },
     {
