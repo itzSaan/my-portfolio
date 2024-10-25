@@ -8,20 +8,20 @@
   "display": "standalone",
   "icons": [
         {
-      "src": "sk.ico",
+      "src": "letter-s.ico",
       "sizes": "48x48"
     },
     {
-      "src": "/public/images/s.png",
+      "src": "letter-s.png",
       "sizes": "72x72 96x96",
       "purpose": "maskable"
     },
     {
-      "src": "images/s.png",
+      "src": "letter-s.png",
       "sizes": "128x128 256x256"
     },
     {
-      "src": "images/s.png",
+      "src": "letter-s.png",
       "sizes": "512x512"
     }
   ]
