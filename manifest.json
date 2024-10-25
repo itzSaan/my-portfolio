@@ -8,11 +8,11 @@
   "display": "standalone",
   "icons": [
         {
-      "src": "./public/images/s.png",
+      "src": "public/images/s.png",
       "sizes": "48x48"
     },
     {
-      "src": "./public/images/s.png",
+      "src": "/public/images/s.png",
       "sizes": "72x72 96x96",
       "purpose": "maskable"
     },
